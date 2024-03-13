@@ -4,28 +4,65 @@
         <meta charset="utf8">
         <title>TIME TABLE</title>
         <style>
-            h1{
+            .container{
+                text-align : center;
+                font-weight: 100;
+            }
+            h4{
                 text-align: center;
             }
-            h2{
-                text-align: center;
+            .flex{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            img{
+                width: 200px;
+                max-width: fit-content;
             }
             th, td{
                 border : 1px solid black;
                 border-collapse: collapse;
                 text-align: center;
             }
-            table{
+            .A{
                 border : 1px solid black;
                 margin : 10px auto;
                 border-collapse: collapse;
             }
+            .B{
+                border : 1px solid black;
+                margin : 10px auto;
+                border-collapse: collapse; 
+            }
+            .C{
+                text-align: center;
+                display: inline-block;
+                text-indent: 300px;
+                font-weight: bold;
+            }
+            .D{
+                text-align: center;
+                display:inline-block;
+                text-indent: 400px;
+                font-weight: bold;
+            }
         </style>
     </head>
     <body>
-        <h1>VI SEMESTER TIME TABLE</h1>
-        <h2>HALL/CS101/CS103/CS002</h2>
-        <table>
+        <header class ="flex">
+            <img src = "logo.jpeg" alt="logo">
+        <div class="container">
+            <p>JSS MAHAVIDYAPEETHA</p>
+            <p>JSS SCIENCE AND TECHNOLOGY UNIVERSITY</p>
+            <h2>SRI JAYACHAMARAJENDRA COLLEGE OF ENGINEERING</h2>
+            <h3>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h3><hr />
+            <p>TIMETABLE FOR ACADEMIC YEAR 2023-24 (EVEN SEMESTER)-UG</p>
+        </div>
+        <img src = "symbol.jpeg" alt = "symbol">
+        </header>
+        <h4>HALL/CS101/CS103/CS002</h4>
+        <table class="A"> 
             <tr>
                 <th>DAY</th>
                 <th>7:30-8:30</th>
@@ -113,5 +150,85 @@
                 <td></td>
             </tr>
         </table>
+        <table class="B">
+            <thead>
+                <tr>
+                    <th>Sub.Code</th>
+                    <th>Subject Title</th>
+                    <th>Credits</th>
+                    <th>Course Instructor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>20CS610</td>
+                    <td>Machine Learning</td>
+                    <td>4</td>
+                    <td>Prof. SNM</td>
+                </tr>
+                <tr>
+                    <td>20CS620</td>
+                    <td>Web Technology</td>
+                    <td>4</td>
+                    <td>Prof. VS</td> 
+                </tr>
+                <tr>
+                    <td>20CS630</td>
+                    <td>Internet Of Things</td>
+                    <td>4</td>
+                    <td>Prof. SGC</td>
+                </tr>
+                <tr>
+                <td>20CS641/<br>20CS642/<br>20CS643</td>
+                    <td>Cloud Computing/<br>Automotive Cyber Security/<br>Cyber Security</br></td>
+                    <td>3</td>
+                    <td>Prof. MAA/<br>Prof. HDN/<br>Prof SPM/ Prof RP/ Prof RK</td>
+                </tr>
+                <tr>
+                    <td>20CS652/<br>20CS653</td>
+                    <td>Python Programming/<br>Fundamentals of Computer Networks</td>
+                    <td>3</td>
+                    <td>Prof. SNM/<br>Prof. NT</td>
+                </tr>
+                <tr>
+                    <td>20CS662/<br>20CS663</td>
+                    <td>Introdunction to Machine Learning/<br>Basics of Digital Image Processing</td>
+                    <td>3</td>
+                    <td>Prof. RR/<br>Prof. SS</td>
+                </tr>
+                <tr>
+                    <td>20CS67L</td>
+                    <td>Machine Learning Laboratory</td>
+                    <td>1.5</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>20CS68L</td>
+                    <td>Web Technology Laboratory</td>
+                    <td>1.5</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>20CS630P</td>
+                    <td>Internet of Things Practical</td>
+                    <td>1</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>20HU612</td>
+                    <td>Constituion of India and Proffesional Ethics</td>
+                    <td>0</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class ="C">
+            <p>Dr Srinath S</p>
+            <p>HOD of CSE Dept</p>
+        </div>
+        <div class="D">
+            <p>Dr. S B Kivade</p>
+            <p>Principal,SJCE / Dean Engineering, JSSSTU</p>
+        </div>
     </body>
 </html>
