@@ -1,0 +1,35 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    display:flex;
+    justify-content: space-evenly;
+    margin:50px;
+    background-color:antiquewhite;
+}
+
+#sec-1{
+    width:50%;
+}
+
+#sec-2{
+    width:50%;
+}
+
+h3{
+    color:darkblue;
+}
+
+.degree{
+    margin: 10px 0px;
+}
+
+p{
+    margin:3px;
+}
+
+.skills li{
+    display:inline-block;
+    border:solid 1px;
+    margin:5px;
+    padding:10px;
+    border-radius:8px;
+}
