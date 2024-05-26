@@ -1,54 +1,25 @@
+# Web page for the time table of the semester
 <!DOCTYPE html>
-<html>
-    <head lang="en">
-        <link rel="stylesheet" href="styles.css" />
-        <meta charset="utf8">
-        <title>TIME TABLE</title>
-        <style>
-            .container{
-                text-align : center;
-                font-weight: 100;
-            }
-            h4{
-                text-align: center;
-            }
-            .flex{
-                display: flex;
-                justify-content: space-evenly;
-                align-items: center;
-                font-weight: bold;
-            }
-            img{
-                width: 200px;
-                max-width: fit-content;
-            }
-            th, td{
-                border : 1px solid black;
-                border-collapse: collapse;
-                text-align: center;
-            }
-            .A{
-                border : 1px solid black;
-                margin : 10px auto;
-                border-collapse: collapse;
-            }
-            
-        </style>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="stylett.css"/>
+        <meta charset="UTF-8">
+        <title>Time Table</title>
     </head>
     <body>
-        <header class ="flex">
-            <img src = "logo.jpeg" alt="logo">
-        <div class="container">
-            <p>JSS MAHAVIDYAPEETHA</p>
-            <p>JSS SCIENCE AND TECHNOLOGY UNIVERSITY</p>
-            <h2>SRI JAYACHAMARAJENDRA COLLEGE OF ENGINEERING</h2>
-            <h3>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h3><hr />
-            <p>TIMETABLE FOR ACADEMIC YEAR 2023-24 (EVEN SEMESTER)-UG</p>
-        </div>
-        <img src = "symbol.jpeg" alt = "symbol">
+        <header class="flex">
+            <img src="logo.jpeg" alt="logo">
+            <div class="container">
+                <p>JSS MAHAVIDYAPEETHA</p>
+                <p>JSS SCIENCE AND TECHNOLOGY UNIVERSITY</p>
+                <p>SRI JAYACHAMARAJENDRA COLLEGE OF ENGINEERING</p>
+                <h3>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h3><hr />
+                <p>TIME-TABLE FOR ACADEMIC YEAR 2023-24 (EVEN SEMESTER)-UG</p>
+            </div>
+            <img src="symbol.jpeg" alt="symbol">
         </header>
-        <h4>HALL/CS101/CS103/CS002</h4>
-        <table class="A"> 
+        <h4>HALL/CS101/CS103/SC002</h4>
+        <table class="A">
             <tr>
                 <th>DAY</th>
                 <th>7:30-8:30</th>
@@ -114,11 +85,9 @@
                 <td>-</td>
                 <td>20CS641/<br>20CS642/<br>20CS643</td>
                 <td>OE-II</td>
-                <td></td>
                 <td>20CS630<br>[CS 101]</td>
                 <td>20CS610<br>[CS 101]</td>
                 <td>20HU620<br>[CS 101]</td>
-                <td></td>
                 <td colspan="2">20CS630P E1<br>HW LAB</td>
                 <td></td>
             </tr>
@@ -127,7 +96,6 @@
                 <td>-</td>
                 <td>-</td>
                 <td>OE-III</td>
-                <td></td>
                 <td colspan="3">20CS67L E1<br>SW LAB1<br>20CS68L E2<br>SW LAB2</td>
                 <td></td>
                 <td></td>
@@ -148,9 +116,9 @@
             <tbody>
                 <tr>
                     <td>20CS610</td>
-                    <td>Machine Learning</td>
+                    <td>Macine Learning</td>
                     <td>4</td>
-                    <td>Prof. SNM</td>
+                    <td>Prof.SNM</td>
                 </tr>
                 <tr>
                     <td>20CS620</td>
@@ -186,37 +154,37 @@
                     <td>20CS67L</td>
                     <td>Machine Learning Laboratory</td>
                     <td>1.5</td>
-                    <td></td>
+                    <td>-</td>
                 </tr>
                 <tr>
                     <td>20CS68L</td>
                     <td>Web Technology Laboratory</td>
                     <td>1.5</td>
-                    <td></td>
+                    <td>-</td>
                 </tr>
                 <tr>
                     <td>20CS630P</td>
                     <td>Internet of Things Practical</td>
                     <td>1</td>
-                    <td></td>
+                    <td>-</td>
                 </tr>
                 <tr>
                     <td>20HU612</td>
                     <td>Constituion of India and Proffesional Ethics</td>
                     <td>0</td>
-                    <td></td>
+                    <td>-</td>
                 </tr>
             </tbody>
         </table>
-        <footer class ="flex">
-        <div>
-            <p>Dr Srinath S</p>
-            <p>HOD of CSE Dept</p>
-        </div>
-        <div>
-            <p>Dr. S B Kivade</p>
-            <p>Principal,SJCE / Dean Engineering, JSSSTU</p>
-        </div>
+        <footer class="flex">
+            <div>
+                <p>Dr. Srinath S</p>
+                <p>HOD of CSE</p>
+            </div>
+            <div>
+                <p>Dr. S B Kivade</p>
+                <p>Principal,SJCE / Dean Engineering, JSSSTU</p>
+            </div>
         </footer>
     </body>
 </html>
